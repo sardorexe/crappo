@@ -8,6 +8,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         padding: 20px 0px;
         top: 0%;
         left: 0;
@@ -28,8 +29,8 @@
         }
         #close-icon {
           display: block;
-          position: fixed;
-          left: 6%;
+          position: fixed !important;
+          left: 6% !important;
           color: #fff;
           transition: all 0.2s ease;
           padding: 10px 15px;
