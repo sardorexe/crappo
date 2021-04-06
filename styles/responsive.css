@@ -1,0 +1,322 @@
+@media (max-width: 992px) {
+  .header .header-nav .nav-items {
+    position: fixed;
+    height: 100vh;
+    background: black;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0px;
+    top: 0%;
+    left: 0;
+    -webkit-clip-path: circle(100px at 110% -20%);
+            clip-path: circle(100px at 110% -20%);
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  .header .header-nav .nav-items .login {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: none;
+    border: none;
+    padding: 0;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .header .header-nav .nav-items .login:hover {
+    border-color: #fff;
+  }
+  .header .header-nav .nav-items #close-icon {
+    display: block;
+    position: fixed;
+    left: 6%;
+    color: #fff;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .header .header-nav .nav-items #close-icon:hover {
+    background: #fff;
+    color: #000;
+  }
+  .header .header-nav .nav-items .item {
+    border-bottom: 2px solid transparent;
+  }
+  .header .header-nav .nav-items .item:hover {
+    border-color: #fff;
+  }
+  .header .header-nav .nav-items.open {
+    -webkit-clip-path: circle(1000px at 90% -30%);
+            clip-path: circle(1000px at 90% -30%);
+  }
+  .header .header-nav #open-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .header .header-nav #open-icon:hover {
+    color: #000;
+    background: #fff;
+  }
+  .header .container .row .header-content .content-title {
+    margin-bottom: 10px;
+    margin-top: 23px;
+    font-size: 13px;
+    padding: 3px 13px 3px 3px;
+  }
+  .header .container .row .header-content .content-text {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 3px;
+  }
+  .header .container .row .header-content .content-des {
+    font-weight: 200;
+    padding: 7px 10px 10px 5px;
+    font-size: 12px;
+  }
+  .why-crappo .container .row .crappo-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .why-crappo .container .row .crappo-boxes .crappo-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px 20px;
+  }
+  .why-crappo .container .row .crappo-boxes .crappo-box i {
+    padding: 15px;
+  }
+  .why-crappo .container .row .crappo-boxes .crappo-box .box-text h1 {
+    font-size: 20px;
+  }
+  .why-crappo .container .row .crappo-boxes .crappo-box .box-text p {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .subscribe .container .row .subscribe-title h1 {
+    font-size: 24px;
+  }
+  .subscribe .container .row .subscribe-title p {
+    font-size: 13px;
+  }
+  .subscribe .container .row .subscribe-form {
+    margin: 40px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 524px) {
+  .why-crappo .container .row .crappo-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .why-crappo .container .row .crappo-boxes .crappo-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .why-crappo .container .row .crappo-boxes .crappo-box i {
+    margin: 0;
+  }
+}
+
+@media (max-width: 551px) {
+  .calculate .container .row .calculate-box .box-calc input {
+    margin-right: 20px;
+    padding: 6px 5px 5px 10px;
+  }
+  .calculate .container .row .calculate-box .box-calc select {
+    margin-right: 20px;
+    padding: 6px 5px 5px 10px;
+  }
+}
+
+@media (max-width: 475px) {
+  .calculate .container .row .calculate-box .box-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .calculate .container .row .calculate-box .box-calc input {
+    margin-bottom: 20px;
+  }
+  .calculate .container .row .calculate-box .box-calc select {
+    margin-bottom: 20px;
+  }
+  .subscribe .container .row .subscribe-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe .container .row .subscribe-form input {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 269px) {
+  .trade .container .trade-title {
+    margin-top: 90px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 396px) {
+  .trade .container .trade-title {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .trade .container .row .bitcoin .content-btn {
+    font-size: 12px;
+  }
+  .trade .container .row .bitcoin .content-btn img {
+    width: 15%;
+  }
+}
+
+@media (max-width: 330px) {
+  .header .container .row .header-content .content-title {
+    font-size: 12px;
+  }
+  .header .container .row .header-content .content-title .white-title {
+    font-size: 12px;
+  }
+  .header .container .row .header-content .content-text {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .header .container .row .header-content .content-des {
+    font-size: 11px;
+  }
+  .header .container .row .header-content .content-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .header .container .row .header-content .content-btn img {
+    width: 20%;
+  }
+  .why-crappo .container .row .crappo-content .content-title {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .why-crappo .container .row .crappo-content .content-text {
+    font-size: 12px;
+  }
+  .why-crappo .container .row .crappo-content .content-btn {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  .features .container .features-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .features .container .row .features-box .box-title {
+    font-size: 18px;
+  }
+  .features .container .row .features-box .box-text {
+    font-size: 13px;
+  }
+  .features .container .row .features-box .box-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .stat .container .row .stat-box {
+    margin-top: 30px;
+  }
+  .stat .container .row .stat-box .box-title {
+    font-size: 18px;
+  }
+  .stat .container .row .stat-box .box-text {
+    font-size: 13px;
+  }
+  .stat .container .row .stat-box .box-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .investment .container .row .investment-box .box-title {
+    font-size: 18px;
+  }
+  .investment .container .row .investment-box .box-text {
+    font-size: 13px;
+  }
+  .investment .container .row .investment-box .box-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
